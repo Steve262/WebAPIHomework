@@ -1,0 +1,313 @@
+//Steven Kosovich
+//Assignment 1
+//CSCI 3800: Web API
+//Shawn McCarthy
+//Description: Analyzing data from a search of books with "Turing" in the title
+
+RAW:
+
+HTTP/1.1 200 OK	//This is the protocal used, so HTTP and version 1.1, and the 200 means it was good and went through
+Expires: Thu, 05 Feb 2015 00:44:27 GMT		//When the session expires, which in this case is very soon
+Date: Thu, 05 Feb 2015 00:44:27 GMT		//When the session was started
+Cache-Control: private, max-age=0, must-revalidate, no-transform	//Security stuff, so cache-control is private, it can't get too old, you must revalidate the page to keep it working, and no-transform is a safety protocal for HTTP
+ETag: "-roYZe-KGC8fMhY8_FAC-zdHGwU/eJrI3qh2rEAH1jRBzpO0pXQTAbM"	//The ETag is an HTTP protocal, for web cache validation
+Vary: Origin	//This basically means don't cache the response
+Vary: X-Origin	//This is just another part of the vary: origin, I think
+Content-Type: application/json; charset=UTF-8		//The content type (an application and json, in this case), and the character set is utf-8 (so Unicode)
+X-Content-Type-Options: nosniff	//A security feature to prevent sniffing away responses on some web browsers
+X-Frame-Options: SAMEORIGIN	//Another security feature so a page can only be displayed in a frame from the same place as the page itself
+X-XSS-Protection: 1; mode=block	//Enables a cross site scripting filter, if it is not already already enabled
+Content-Length: 28656		//The length of the content is the size of the body, in decimal number of octets
+Server: GSE		//Generic Stream Encapsulation, a protocol for carrying packets
+Alternate-Protocol: 443:quic,p=0.02		//An alternate protocol, although I don't know what the numbers mean
+
+
+//Below is a dump from what books were returned. I don't know if this is needed or not, but here it is anyway
+
+
+{
+ "kind": "books#volumes",
+ "totalItems": 969,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "6sElRNGXWFIC",
+   "etag": "veUWIm2RlAk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/6sElRNGXWFIC",
+   "volumeInfo": {
+    "title": "Turing's Cathedral",
+    "subtitle": "The Origins of the Digital Universe",
+    "authors": [
+     "George Dyson"
+    ],
+    "publisher": "Pantheon",
+    "publishedDate": "2012",
+    "description": "Documents the innovations of a group of eccentric geniuses who developed computer code in the mid-20th century as part of mathematician Alan Turin's theoretical universal machine idea, exploring how their ideas led to such developments as digital television, modern genetics and the hydrogen bomb.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780375422775"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0375422773"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 401,
+    "printType": "BOOK",
+    "categories": [
+     "Science"
+    ],
+    "averageRating": 2.5,
+    "ratingsCount": 17,
+    "contentVersion": "0.1.0.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=6sElRNGXWFIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=6sElRNGXWFIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=6sElRNGXWFIC&printsec=frontcover&dq=turing&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=6sElRNGXWFIC&dq=turing&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Turing_s_Cathedral.html?hl=&id=6sElRNGXWFIC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=6sElRNGXWFIC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Documents the innovations of a group of eccentric geniuses who developed computer code in the mid-20th century as part of mathematician Alan Turin&#39;s theoretical universal machine idea, exploring how their ideas led to such developments as ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "DjcTkgAACAAJ",
+   "etag": "aBqcrvCEmEY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/DjcTkgAACAAJ",
+   "volumeInfo": {
+    "title": "Alan Turing",
+    "authors": [
+     "Andrew Hodges",
+     "Alan Turing"
+    ],
+    "publishedDate": "2002",
+    "description": "Alan Turing Home Page. Gateway to a large website maintained by Andrew Hodges, biographer of Alan Turing (1912-1954).",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "OCLC:49947687"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "printType": "BOOK",
+    "averageRating": 4.0,
+    "ratingsCount": 3,
+    "contentVersion": "preview-1.0.0",
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=DjcTkgAACAAJ&dq=turing&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=DjcTkgAACAAJ&dq=turing&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Alan_Turing.html?hl=&id=DjcTkgAACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=DjcTkgAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Alan Turing Home Page. Gateway to a large website maintained by Andrew Hodges, biographer of Alan Turing (1912-1954)."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "WyaH47b_KE0C",
+   "etag": "e4NebHRCKRw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/WyaH47b_KE0C",
+   "volumeInfo": {
+    "title": "Turing",
+    "subtitle": "Pioneer of the Information Age",
+    "authors": [
+     "B. Jack Copeland"
+    ],
+    "publisher": "Oxford University Press",
+    "publishedDate": "2012-11-29",
+    "description": "Describes the life and work of the British mathematician who played a major role in unraveling German codes during World War II and helped to establish the fields of computer science and artificial intelligence.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780199639793"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0199639795"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 300,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 6,
+    "contentVersion": "0.1.0.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=WyaH47b_KE0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=WyaH47b_KE0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=WyaH47b_KE0C&printsec=frontcover&dq=turing&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=WyaH47b_KE0C&dq=turing&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Turing.html?hl=&id=WyaH47b_KE0C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=WyaH47b_KE0C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Describes the life and work of the British mathematician who played a major role in unraveling German codes during World War II and helped to establish the fields of computer science and artificial intelligence."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "07_ckaHY-2QC",
+   "etag": "H30vcgyDZlY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/07_ckaHY-2QC",
+   "volumeInfo": {
+    "title": "Alan M. Turing",
+    "subtitle": "Centenary Edition",
+    "publisher": "Cambridge University Press",
+    "publishedDate": "2012-03-22",
+    "description": "Containing never-before-published material, this fascinating account sheds new light on one of the greatest figures of the twentieth century.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781107020580"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1107020581"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 169,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 5,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=07_ckaHY-2QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=07_ckaHY-2QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=07_ckaHY-2QC&printsec=frontcover&dq=turing&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=07_ckaHY-2QC&dq=turing&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Alan_M_Turing.html?hl=&id=07_ckaHY-2QC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=07_ckaHY-2QC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Containing never-before-published material, this fascinating account sheds new light on one of the greatest figures of the twentieth century."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "QJyX175VCj8C",
+   "etag": "mU7kr15bj64",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/QJyX175VCj8C",
+   "volumeInfo": {
+    "title": "
+
+//I don't know if this I was supposed to analyze this raw stuff too, but I will anyway just in case
+
+RAW:
+
+GET https://www.googleapis.com/books/v1/volumes/?q=turing HTTP/1.1	//Where it is getting the book results from (googleapis.com/books), while using HTTP 1.1
+Accept-Encoding: gzip,deflate		//The type of encoding and compression used, which in this case was gzip and deflate
+Host: www.googleapis.com		//The host, which is the main site you are connecting to
+Connection: Keep-Alive		//Means that the session is persistent, so you don't have to open and close the connection every time there are requests and responses
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)		//The web client being used, acting on behalf of a user
+
