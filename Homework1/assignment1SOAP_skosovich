@@ -1,0 +1,33 @@
+//Steven Kosovich
+//Assignment 1
+//CSCI 3800: Web API
+//Shawn McCarthy
+//Description: Create a request using an IP address to lookup by its county.
+
+Raw:
+
+HTTP/1.1 200 OK		//Using HTTP 1.1, the 200 means that it is okay and it worked
+Cache-Control: private, max-age=0		//A security feature, so if cache-control is private, the session can't get too old, and you must revalidate the page to keep it working. No-transform is a safety protocal for HTTP
+Content-Type: text/xml; charset=utf-8		//The Content Type (it is text and xml in this particular case), and the charset = utf-8 means that it is using unicode
+Content-Encoding: gzip		//The type of compression used, which in this case was gzip
+Vary: Accept-Encoding		//This makes it so the browser knows that two cacheable responses of the same resource will be equal if the request header is different
+Server: Microsoft-IIS/7.0	//The type of server used, in this case a Microsoft machine
+X-AspNet-Version: 4.0.30319	//The version of the ASP.NET
+X-Powered-By: ASP.NET	//The collection of application frameworks being run by the site, in this case ASP.NET
+Date: Thu, 05 Feb 2015 00:48:55 GMT		//The date that the info was captured
+Content-Length: 403		//The length of the content which is the size of the body, in decimal number of octets
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetGeoIPResponse xmlns="http://www.webservicex.net/"><GetGeoIPResult><ReturnCode>1</ReturnCode><IP>212.58.244.68</IP><ReturnCodeDetails>Success</ReturnCodeDetails><CountryName>United Kingdom</CountryName><CountryCode>GBR</CountryCode></GetGeoIPResult></GetGeoIPResponse></soap:Body></soap:Envelope>
+
+//I don't know if this I was supposed to analyze this part too, but I will anyway just in case
+
+Raw:
+
+POST http://www.webservicex.net/geoipservice.asmx HTTP/1.1	//Where the info was posted
+Accept-Encoding: gzip,deflate		//The type of encoding and compression used, which in this case was gzip and deflate
+Content-Type: text/xml;charset=UTF-8		//The Content Type (it is text and xml in this particular case), and the charset = utf-8 means that it is using unicode
+SOAPAction: "http://www.webservicex.net/GetGeoIP"		//The action you are performing, which is to get the GeoIP
+Content-Length: 317		//The length of the content which is the size of the body, in decimal number of octets
+Host: www.webservicex.net	//The host, which is the main site you are connecting to
+Connection: Keep-Alive	//Means that the session is persistent, so you don't have to open and close the connection every time there are requests and responses
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)		//The web client being used, acting on behalf of a user
