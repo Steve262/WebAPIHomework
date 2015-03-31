@@ -1,0 +1,9 @@
+Answer the following question:
+– Basic Authorization is easily handled in the main flow, without the need for an
+additional proxy. Give one reason (there are many) OAuth tokens should not be
+granted in the main flow, assuming the user has sent in the correct credentials.
+
+One reason is security. OAuth tokens shouldn't be granted in the main flow because 
+then they could be seen in the flow, and thus have a chance of being used where not 
+intended. Anyone could get access to the OAuth tokens, which makes it unsecure and 
+thus making OAuth security worthless. OAuth should be in a separate flow.
