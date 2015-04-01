@@ -1,0 +1,12 @@
+This is how to use my homework:
+
+First, put the link here in Postman (or SOAPUI or whatever): http://steve262-test.apigee.net/myhw3
+
+Then put /oauth or /basic after it and use tokens (for oauth) and stuff to get it to work (see My Postman collection that is in another file in this repository. I like Postman way better than SOAPUI, and Shawn said we can use it.)
+It should then do what it's supposed to, with calls to Github.
+
+I worked on this assignment for a long time, and tried doing it about four different ways, and this is the only one that worked. Hopefully you can get it to work too.
+
+Look at my question we were supposed to answer, in another file on this repository. 
+
+If you have any questions or need any additional things, just send me an email. I might send a lot of this info in my email for this assignment as well, plus maybe some screen shots. Thanks!
