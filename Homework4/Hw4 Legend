@@ -1,0 +1,9 @@
+In order to run my assignment, type: http://steve262-test.apigee.net/hw4/. Then do http://steve262-test.apigee.net/hw4/movies/ to get to my BaaS or something.
+
+So just go to that url (in like, Postman or something), and do a GET to see all 5 of my movies. You can do a GET on http://steve262-test.apigee.net/hw4/movies/The Avengers to see just that one movie
+
+Do a POST like http://steve262-test.apigee.net/hw4/movies/your movie/actorone/actortwo/actor3/1992 to make a new movie
+
+Do a DELETE like http://steve262-test.apigee.net/hw4/movies/your movie/ to delete a specific movie
+
+Thank you, and let me know if you have any questions or problems!
