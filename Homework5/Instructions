@@ -1,0 +1,11 @@
+Steven Kosovich's Assignment 5 for Web API
+
+There should be a JSON file with the Postman tests, showing the five different test commands desired in the requirements.
+
+There should also be a CSV file showing the results of the analytics.
+
+If you want to test it manually, go to http://steve262-test.apigee.net/hw4/movies/ or http://steve262-test.apigee.net/hw4/movies/the avengers?reviews=true if you want a qurey parameter showing a movie and its reviews.
+
+You can also go to https://api.usergrid.com/steve262/sandbox/moviereviews/mr. bob to get a specific movie review by the reviewer's name from the BaaS. You can go to like https://api.usergrid.com/steve262/sandbox/movies/the avengers to go to the movie BaaS and search by movie, like The Avengers.
+
+Let me know if you have any questions. Thanks!
