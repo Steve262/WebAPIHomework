@@ -1,0 +1,91 @@
+Proxy Path Suffix,Date Time,Sum of Traffic
+/movies/the%20avengers,2015-04-28 07:56:00+0000,1
+/movies/the%20avengers,2015-04-28 07:57:00+0000,1
+/movies/the%20avengers,2015-04-28 08:11:00+0000,1
+/movies/the%20avengers,2015-04-28 08:12:00+0000,0
+/movies/the%20avengers,2015-04-28 08:13:00+0000,3
+/movies/the%20avengers,2015-04-28 08:14:00+0000,2
+/movies/the%20avengers,2015-04-28 08:16:00+0000,6
+/movies/the%20avengers,2015-04-28 08:17:00+0000,0
+/movies/the%20avengers,2015-04-28 08:18:00+0000,4
+/movies/jurassic%20park,2015-04-28 07:56:00+0000,0
+/movies/jurassic%20park,2015-04-28 07:57:00+0000,0
+/movies/jurassic%20park,2015-04-28 08:11:00+0000,0
+/movies/jurassic%20park,2015-04-28 08:12:00+0000,3
+/movies/jurassic%20park,2015-04-28 08:13:00+0000,1
+/movies/jurassic%20park,2015-04-28 08:14:00+0000,0
+/movies/jurassic%20park,2015-04-28 08:16:00+0000,0
+/movies/jurassic%20park,2015-04-28 08:17:00+0000,4
+/movies/jurassic%20park,2015-04-28 08:18:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 07:56:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 07:57:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 08:11:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 08:12:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 08:13:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 08:14:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 08:16:00+0000,0
+/movies/the%20dark%20knight%20rises,2015-04-28 08:17:00+0000,6
+/movies/the%20dark%20knight%20rises,2015-04-28 08:18:00+0000,0
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 07:56:00+0000,0
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 07:57:00+0000,0
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 08:11:00+0000,3
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 08:12:00+0000,0
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 08:13:00+0000,0
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 08:14:00+0000,0
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 08:16:00+0000,0
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 08:17:00+0000,3
+/movies/the%20lord%20of%20the%20rings:%20the%20fellowship%20of%20the%20ring,2015-04-28 08:18:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 07:56:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 07:57:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 08:11:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 08:12:00+0000,2
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 08:13:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 08:14:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 08:16:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 08:17:00+0000,0
+/movies/star%20wars%20episode%20111:%20the%20revenge%20of%20the%20sith,2015-04-28 08:18:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 07:56:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 07:57:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:11:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:12:00+0000,2
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:13:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:14:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:16:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:17:00+0000,0
+/movies/star%20wars%20episode%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:18:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 07:56:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 07:57:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:11:00+0000,1
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:12:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:13:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:14:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:16:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:17:00+0000,0
+/movies/satr%20wars%20episone%20iii:%20the%20revenge%20of%20the%20sith,2015-04-28 08:18:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 07:56:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 07:57:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 08:11:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 08:12:00+0000,1
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 08:13:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 08:14:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 08:16:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 08:17:00+0000,0
+/movies/star%20wars%20episode%20lll:%20the%20revenge%20of%20the%20sith,2015-04-28 08:18:00+0000,0
+(not set),2015-04-28 07:56:00+0000,1
+(not set),2015-04-28 07:57:00+0000,0
+(not set),2015-04-28 08:11:00+0000,0
+(not set),2015-04-28 08:12:00+0000,0
+(not set),2015-04-28 08:13:00+0000,0
+(not set),2015-04-28 08:14:00+0000,0
+(not set),2015-04-28 08:16:00+0000,0
+(not set),2015-04-28 08:17:00+0000,0
+(not set),2015-04-28 08:18:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 07:56:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 07:57:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 08:11:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 08:12:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 08:13:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 08:14:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 08:16:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 08:17:00+0000,0
+/movies/star%20wars%20episode%20iii:the%20revenge%20of%20the%20sith,2015-04-28 08:18:00+0000,1
