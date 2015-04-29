@@ -2,7 +2,7 @@ Steven Kosovich's Assignment 5 for Web API
 
 There should be a JSON file with the Postman tests, showing the five different test commands desired in the requirements.
 
-There should also be a CSV file showing the results of the analytics. I don't know if they are the correct analytics, but they are custom nontheless.
+There should also be 2 CSV files showing the results of the analytics. I don't know if they are the correct analytics, but they are custom nonetheless. One of them shows how many times each movie was queried, and the other is a general thing.
 
 The only way to see the reviews appended to the movies is by doing a /get on a specific movie, followed by a query saying reviews = true. An example is shown below.
 
